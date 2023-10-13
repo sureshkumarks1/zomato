@@ -28,7 +28,11 @@ body{
   display: flex;
   justify-content: flex-end;  
 }
-
+.list li a{
+  text-decoration: none;
+  color: white;
+  
+}
 .list li{
   align-items: center;
   list-style: none;
@@ -83,7 +87,7 @@ body{
   align-content: center;
   
   height: auto;
-    margin-bottom: 40px;
+  margin-bottom: 40px;
   margin-top: 80px;
 }
 .popular p{
@@ -122,27 +126,26 @@ body{
   height: 80px;
   /* width: auto; */
   width: 350px;    
-  border: 1px solid rgb(171, 173, 171);
+  border: 1px solid rgb(202, 204, 202);
   display: flex;
-  align-items: center;e
+  align-items: center;
   justify-content: flex-start;
   border-radius: 10px;
   margin: 20px 10px 20px 10px;
 }
 .bottom .one:hover {
-  box-shadow: 0px 1px 8px #b8b6b6;
+  box-shadow: 1px 1px 8px #d4d3d3;
 }
 .one .inneone{
   position: relative;
-  align-items: center;
-  
+  align-items: center;  
 }
 
 .one .inneone h5{
   
   font-family: sans-serif;
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 19px;
+  font-weight:lighter;
   margin-left: 20px;
   
 }
@@ -154,3 +157,94 @@ body{
 .one{
   box-shadow: 1px 1px 1px #b8b6b6;
 }
+.middlecities{
+
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight:lighter;
+}
+
+.outerwrapcontry{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0px auto;
+}
+.onecontry{  
+    height: 80px;
+    /* width: auto; */
+    width: 350px;    
+    border: 1px solid rgb(202, 204, 202);
+    display: flex;
+    flex-direction: row;       
+    align-content: center;
+    position: relative;
+    
+    border-radius: 10px;
+    margin: 20px 10px 20px 10px;
+  }
+  .onecontry:hover{
+    box-shadow: 1px 1px 1px #b8b6b6;
+  }
+
+  .onecontry .inneonecountry .countryimages{
+    position: absolute;
+    margin: 20px auto 10px 20px;
+
+  }
+  
+  .onecontry .inneonecountry h5{
+    margin: 25px auto auto 80px;
+    position: absolute;
+
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight:lighter;
+    width: auto;
+  }
+  .onecontry .inneonecountry .rightarrow{
+    margin: 30px auto auto 300px;
+    position: absolute;
+  }
+  .mostbottom{
+    display: flex;
+    flex-direction: column;
+  }
+.footer{
+  
+  
+  margin-top: 20px;
+}
+.footerlogo{
+  
+  border: 1px solid blck;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.linkfoot{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-content: center;
+}
+
+.linkfoot a{
+  text-decoration: none;
+  margin-left: 30px;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight:lighter;
+  
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+
+}
+.smalllogofooter{
+  background: url("https://b.zmtcdn.com/data/webuikit/0687ff554c86e36cda9498212e221af61563274375.png") -141px 0px no-repeat;
+
+}
+
