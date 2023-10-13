@@ -129,7 +129,7 @@ body{
   margin: 20px 10px 20px 10px;
 }
 .bottom .one:hover {
-  box-shadow: 1px 1px 8px #b8b6b6;
+  box-shadow: 0px 1px 8px #b8b6b6;
 }
 .one .inneone{
   position: relative;
