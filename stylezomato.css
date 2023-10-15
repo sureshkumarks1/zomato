@@ -95,8 +95,7 @@ body{
   text-align: center;
   font-family:sans-serif;
 <<<<<<< HEAD
-  font-size: 36px;ls
-=======
+  font-size: 36px;
   font-size: 36px;
 >>>>>>> 054ae50dbfdc37d83755b2d4aef394edddbd636f
 }
@@ -130,7 +129,7 @@ body{
 .bottom .one {
   height: 80px;
   /* width: auto; */
-  width: 350px;    
+  width: 350px;  
   border: 1px solid rgb(202, 204, 202);
   display: flex;
   align-items: center;
@@ -143,7 +142,7 @@ body{
 }
 .one .inneone{
   position: relative;
-  align-items: center;  
+  align-items: center;
 }
 
 .one .inneone h5{
@@ -152,7 +151,7 @@ body{
   font-size: 19px;
   font-weight:lighter;
   margin-left: 20px;
-  
+
 }
 .one img{
   position: absolute;
@@ -325,6 +324,6 @@ hr{
   
   padding-bottom: 40px; 
   color: #b6afaf;
-  
-  
+
+
 }
