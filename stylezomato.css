@@ -67,7 +67,7 @@ body{
   height: auto;
 
 }
-.aftermiddle{
+.aftermiddle . {
   /* border: 1px solid blue; */
   display: flex;
   width: 1100px;
@@ -88,17 +88,18 @@ body{
   
   height: auto;
   margin-bottom: 40px;
-  margin-top: 80px;
+  margin-top: 170px;
 }
 .popular p{
   
   text-align: center;
   font-family:sans-serif;
-  font-size: 36px;
-
+  font-size: 36px;ls
 }
 .aftertext{
   margin-bottom: 50px;
+  
+
 }
 
 .aftertext p{
@@ -212,9 +213,9 @@ body{
     flex-direction: column;
   }
 .footer{
-  
-  
-  margin-top: 20px;
+  /* height: 200px; */
+ background-color: #F8F8F8; 
+  margin-top: -80px;
 }
 .footerlogo{
   
@@ -237,9 +238,8 @@ body{
   margin-left: 30px;
   font-family: sans-serif;
   font-size: 19px;
-  font-weight:lighter;
-  
-  padding: 5px 10px 5px 10px;
+  font-weight:lighter;  
+  padding: 0px 10px 0px 10px;
   border-radius: 5px;
 
 }
@@ -247,4 +247,80 @@ body{
   background: url("https://b.zmtcdn.com/data/webuikit/0687ff554c86e36cda9498212e221af61563274375.png") -141px 0px no-repeat;
 
 }
+.linkfoot a{
+  border: 1px solid black;
+  margin-top: -15px;
+}
+.linkfoot a span{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/* .footerlogo{
+  
+  padding-top: 60px;
+  padding-left: 80px;
+  
+} */
+.linkfoot img{
+  width: 25px;
+  height: 30px;
+  padding-top: 15px;
+  
+}
 
+.footerlogo {
+  display: flex;
+  width: 1100px;
+  margin: 100px auto;
+  padding-top: 60px;   
+}
+.lastbottom{
+  display: flex;
+  width: 1100px;
+  justify-content: flex-start;  
+  margin: 10px auto 0px auto;
+  background-color: #F8F8F8; 
+  
+  margin-top: -50px;
+
+  
+}
+.lastbottom h6{
+    font-size: 15px;
+    font-family: serif;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 0px 1.2rem;
+}
+.lastbottom ul{
+  width: 210px;
+  
+}
+.lastbottom ul li{
+  list-style: none;
+  padding: 5px;
+}
+.bottom5 img{
+  width: 140px;
+  height: 40px;
+}
+hr{
+  width: 1100px;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.copyright {
+  
+  width: 1100px;
+  margin: 0px auto 50px auto;
+  /* margin-top: -20px; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  
+  padding-bottom: 40px; 
+  color: #b6afaf;
+  
+  
+}
