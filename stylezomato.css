@@ -94,7 +94,11 @@ body{
   
   text-align: center;
   font-family:sans-serif;
+<<<<<<< HEAD
   font-size: 36px;ls
+=======
+  font-size: 36px;
+>>>>>>> 054ae50dbfdc37d83755b2d4aef394edddbd636f
 }
 .aftertext{
   margin-bottom: 50px;
